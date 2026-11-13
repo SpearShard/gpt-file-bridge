@@ -1,0 +1,17 @@
+{
+  "name": "easygpt-vscode-bridge",
+  "displayName": "EasyGPT VS Code Bridge",
+  "description": "A local, authenticated control bridge for VS Code integrated terminals.",
+  "version": "0.1.0",
+  "publisher": "easygpt",
+  "engines": { "vscode": "^1.90.0" },
+  "categories": ["Other"],
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "contributes": {
+    "commands": [
+      { "command": "easygpt.listTerminals", "title": "EasyGPT: List Terminals" },
+      { "command": "easygpt.createTerminal", "title": "EasyGPT: Create Terminal" }
+    ]
+  }
+}
