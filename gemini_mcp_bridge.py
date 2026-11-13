@@ -46,7 +46,7 @@ SUPABASE_JWKS_URL = f"{SUPABASE_ISSUER}/.well-known/jwks.json"
 # Current Cloudflare Quick Tunnel URL supplied by Jay.
 # Quick Tunnel URLs change when cloudflared is restarted.
 PUBLIC_MCP_URL = (
-    "https://treating-since-statewide-according.trycloudflare.com/mcp"
+    "https://tell-consequence-investigator-postcard.trycloudflare.com/mcp"
 )
 
 # Supabase OAuth access tokens use aud="authenticated" by default.
